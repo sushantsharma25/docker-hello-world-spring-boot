@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ssh-spring-deploy
-  namespace: sushants-694476
 spec:
   selector:
     matchLabels:
